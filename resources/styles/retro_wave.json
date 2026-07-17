@@ -1,0 +1,82 @@
+{
+  "style_metadata": {
+    "name": "Retro Wave",
+    "version": "1.0.0",
+    "author": "CoEngine Developer",
+    "description": "80s arcade aesthetic driven by warm sun-baked gradients and classical geometry layouts."
+  },
+  "color_palette": {
+    "channels": [
+      {
+        "channel_id": 1,
+        "name": "Sunset Red",
+        "r": 255,
+        "g": 64,
+        "b": 64,
+        "blending": true
+      },
+      {
+        "channel_id": 2,
+        "name": "Rad Orange",
+        "r": 255,
+        "g": 160,
+        "b": 0,
+        "blending": true
+      },
+      {
+        "channel_id": 3,
+        "name": "Grid Purple",
+        "r": 90,
+        "g": 0,
+        "b": 120,
+        "blending": false
+      },
+      {
+        "channel_id": 1000,
+        "name": "Background Override",
+        "r": 30,
+        "g": 0,
+        "b": 40,
+        "blending": false
+      },
+      {
+        "channel_id": 1001,
+        "name": "Ground Override",
+        "r": 15,
+        "g": 0,
+        "b": 25,
+        "blending": false
+      }
+    ]
+  },
+  "object_mappings": {
+    "solid": {
+      "default_id": 1,
+      "noise_thresholds": [
+        { "max_val": 0.0,  "object_id": 1 },
+        { "max_val": 1.0,  "object_id": 2 }
+      ]
+    },
+    "spike": {
+      "default_id": 8,
+      "noise_thresholds": [
+        { "max_val": 0.3,  "object_id": 8 },
+        { "max_val": 1.0,  "object_id": 24 }
+      ]
+    },
+    "slope": {
+      "default_id": 6,
+      "noise_thresholds": [
+        { "max_val": 0.0,  "object_id": 6 },
+        { "max_val": 1.0,  "object_id": 7 }
+      ]
+    },
+    "decoration": {
+      "default_id": 22,
+      "noise_thresholds": [
+        { "max_val": 0.0,  "object_id": 22 },
+        { "max_val": 1.0,  "object_id": 23 }
+      ]
+    }
+  }
+}
