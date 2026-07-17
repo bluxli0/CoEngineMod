@@ -1,0 +1,13 @@
+# Force auto-detection of text files and normalize line endings to LF on commit
+* text=auto
+
+# Explicitly ensure source code uses standard LF line endings
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.h   text eol=lf
+*.json text eol=lf
+
+# Keep binary resources intact
+*.png binary
+*.mp3 binary
+*.ogg binary
