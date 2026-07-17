@@ -1,0 +1,45 @@
+{
+  "theme-id": "cyberpunk_neon",
+  "display-name": "Cyberpunk Neon 2077",
+  "author": "CoEngine Team",
+  "metadata": {
+    "engine_version": "1.0.0",
+    "preferred_blend": "1",
+    "requires_collision": "true"
+  },
+  "palette": {
+    "structural_base": {
+      "channel": 1,
+      "hex": "#0a0f1d",
+      "blending": false,
+      "opacity": 1.0
+    },
+    "structural_detail": {
+      "channel": 2,
+      "hex": "#00f0ff",
+      "blending": true,
+      "opacity": 0.9
+    },
+    "hazard_accent": {
+      "channel": 3,
+      "hex": "#ff0055",
+      "blending": false,
+      "opacity": 1.0
+    },
+    "ambient_decoration": {
+      "channel": 4,
+      "hex": "#fffb00",
+      "blending": true,
+      "opacity": 0.4
+    }
+  },
+  "mappings": {
+    "block_solid": 1695,
+    "block_slab": 1697,
+    "slope_standard": 1755,
+    "hazard_spike_large": 1044,
+    "hazard_spike_small": 1045,
+    "pad_jump_yellow": 35,
+    "orb_jump_yellow": 36
+  }
+}
